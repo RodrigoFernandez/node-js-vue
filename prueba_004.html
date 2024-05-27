@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>VueJs Introducción</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js'></script>
+</head>
+<body>
+    <div id="vue_det">
+        <h1>Nombre: {{firstname}}</h1>
+        <h1>Apellido: {{lastname}}</h1>
+        <div v-html="htmlmydetails"></div>
+        <img v-bind:src="imgsrc" width="300" height="250" />
+    </div>
+
+    <script type="text/javascript" src="vue_js/prueba_004.js"></script>
+</body>
+</html>
