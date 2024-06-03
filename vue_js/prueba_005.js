@@ -7,5 +7,10 @@ const vm1 = new Vue({
 });
 
 const vm2 = new Vue({
-    el: '#component_2'
+    el: '#component_2',
+    components: {
+        'testcomponent': {
+            template: '<div><h2>Esto viene del componente</h2></div>'
+        }
+    }
 });
